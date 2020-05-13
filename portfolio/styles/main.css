@@ -1,3 +1,7 @@
+.container {
+	box-sizing: border-box;
+}
+
 header {
    background: url(../images/NW_HERO.jpg) center / cover;
    height: 60vh;
@@ -11,12 +15,12 @@ body {
 
 h1 {
 	font-weight: bold;
-	color: rgba(151, 50, 101, .9);
+	color: rgba(255,255,255,1.00);
 }
 
 .slogan {
 	font-weight: lighter;
-	color: rgba(24, 50, 101, .8);
+	color: rgba(255,255,255,1.00);
 	font-size: 1.6rem;
 }
 
@@ -32,17 +36,27 @@ main {
 	width: 100%;
 }
 
+.mdl-grid {
+
+}
+
 footer.mdl-mini-footer {
 	bottom: 0;
 	padding: 0.5rem;
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	text-align: center;
+	display:block;
 }
 
 footer.mdl-mini-footer > ul {
 	margin: auto;
 	font-size: 2rem;
+}
+
+footer.mdl-mini-footer__link-list {
+	display:inline-block;
 }
 
 @media screen and (max-width: 1024px) {
