@@ -1,27 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+	box-sizing: border-box;
+	position: relative;
+}
+
 header {
    background: url(../images/NW_HERO.jpg) center / cover;
-   height: 60vh;
+   height: 100vh;
    justify-content: center;
    text-align: center;
  }
 
 body {
 	padding-bottom: 5rem;
+	font-family: 'Maven Pro', sans-serif;
+	background-color: #ededed;
+}
+
+.intro {
+	height: 500px;
+	padding-bottom: 100px;
 }
 
 h1 {
+	font-family: 'Maven Pro', sans-serif;
 	font-weight: bold;
-	color: rgba(151, 50, 101, .9);
+	color: rgba(255,255,255,1.00);
 }
 
 .slogan {
 	font-weight: lighter;
-	color: rgba(24, 50, 101, .8);
+	color: rgba(255,255,255,1.00);
 	font-size: 1.6rem;
 }
 
 main {
 	max-width: 900px;
+	margin: 0 auto; 
+}
+
+.simple {
+  width: 900px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.fancy {
+ width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid blue 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .project-description {
@@ -32,17 +71,43 @@ main {
 	width: 100%;
 }
 
+.mdl-grid {
+	background-color:aquamarine;
+}
+
+.mdl-cell {
+	background-color: antiquewhite;
+}
+
+.mdl-layout__content {background-color: fuchsia;}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  background-color: white;
+  width: 100%;
+  align-content: center;	
+}
+
 footer.mdl-mini-footer {
 	bottom: 0;
 	padding: 0.5rem;
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	align-content: center;	
+	display:block;
 }
 
 footer.mdl-mini-footer > ul {
 	margin: auto;
 	font-size: 2rem;
+}
+
+footer.mdl-mini-footer__link-list {
+	display:inline-block;
 }
 
 @media screen and (max-width: 1024px) {
