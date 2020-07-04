@@ -1,83 +1,143 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Portfolio | Nancy Weickhardt</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Material Design Lite -->
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-	  
-  <!-- Font Awesome -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">	  
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio | Nancy Weickhardt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="styles/main.css">
-  </head>
-  <body>
-    <header>
-      <h1>Nancy Weickhardt</h1>
-     <p class="slogan">I'm a Marketing UX/UI Designer.</p>
-    </header>
-    <main class="mdl-layout__content mdl-grid">
-       <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-		   <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-			   </div>
-		   <div class="mdl-cell mdl-cell--7-col">
-         <h2 class="mdl-card__title-text">Featured Project Name</h2>
-			<p class="project-description mdl-card__supporting-text">Project description text</p>
-		   </div>
-       </div>
-        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-			<div>
-           <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-			</div>
-			<div class="mdl-card__title">
-           <h2 class="mdl-card__title-text">Project Name</h2>
-			</div>
-           <div class="mdl-card__supporting-text">Project description text</div>
-         </div>
-         <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-		  <div>
-           <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-		  </div>
-            <div class="mdl-card__title">
-				 <h2 class="mdl-card__title-text">Project Name</h2>
-			 </div>
-            <div class="mdl-card__supporting-text">Project description text</div>
-         </div>
-         <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-		  <div>
-           <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-		  </div>
-            <div class="mdl-card__title">
-				 <h2 class="mdl-card__title-text">Project Name</h2>
-			 </div>
-            <div class="mdl-card__supporting-text">Project description text</div>
-         </div>
-       </main>
-       <footer class="mdl-mini-footer">
-     <ul class="mdl-mini-footer__link-list">
-       <li> 
-		   <a href="https://www.linkedin.com/in/nancy-weickhardt-1a2a9557/">
-			   <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-		   </a> 
-		 </li>
-       <li> 
-		   <a href="https://github.com/NancyWeickhardt">
-			   <i class="fa fa-github-square" aria-hidden="true"></i>
-		   </a> </li>
-       <li> 
-		   <a href="https://www.facebook.com/nancy.weickhardt.3">
-		   <i class="fa fa-facebook-square" aria-hidden="true"></i>
-		   </a>
-	   </li>
-       <li> 
-		   <a href="mailto:neweickh@gmail.com">
-			   <i class="fa fa-envelope-square" aria-hidden="true"></i>
-		   </a> 
-		 </li>
-     </ul>
-    </footer>
-  </body>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav_header">
+      <div id="logo">
+        <a href="/"><img src="images/logo.png" width="50" alt="" class="logo"></a>
+      </div>
+      <ul id="menu">
+        <li><a class="work-link" href="/">Portfolio</a></li>
+        <li><a class="about-link" href="/">About</a></li>
+        <li><a class="contact-link" href="/">Contact</a></li>
+        <li><a class="home-link" href="/">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <section class="intro_text">
+      <h1>Nancy Weickhardt | UX</h1>
+      <p class="slogan">Hi! I’m Nancy, a Bay Area based UX designer with an MA in Advertising. My passion is to create branded experiences. </p>
+    </section>
+    <section class="image">
+      <img src="images/NW_hero.jpg" alt="Picture of Nancy Weickhardt" class="hero">
+      <div class="shadow_yellow"></div>
+    </section>
+  </section>
+
+  <main class="Projects">
+
+    <!-- Project 1-->
+    <section class="Project_pink" id="project_anchor">
+      <section class="section_text">
+        <h3 class="Section_Title_Pink">Slice</h3>
+        <p class="project_text">Slice is a cloud app I created and branded. Slice allows direct sharing of content with friends and provides a
+          warmer interface. </p>
+      </section>
+      <section class="image">
+        <img src="images/slice_logo.jpg" alt="Slice: A Cloud Storage and Organization App" class="section_image">
+        <div class="shadow_pink"></div>
+      </section>
+      <section class="Primary_CTA">
+        <a href="slice.html" class="Primary_button">View Project</a>
+      </section>
+    </section>
+
+
+    <!-- Project 2-->
+    <section class="Project_blue">
+      <section class="section_text">
+        <h3 class="Section_Title_Blue">Fantasy Sports App</h3>
+        <p class="project_text">I will fill in with more specific information one I have completed my Capstone project.
+        </p>
+      </section>
+      <section class="image">
+        <img src="images/fpo.jpg" alt="FPO" class="section_image">
+        <div class="shadow_blue"></div>
+      </section>
+      <section class="Primary_CTA">
+        <a href="slice.html" class="Primary_button">View Project</a>
+      </section>
+    </section>
+
+    <!-- Project 3-->
+    <section class="Project_yellow">
+      <section class="section_text">
+        <h3 class="Section_Title_Yellow">Ford Fiesta</h3>
+        <p class="project_text">A research project I did for Ford Fiesta where my team was tasked with defining 3 primary targets and creating a landing page for each.
+        </p>
+      </section>
+      <section class="image">
+        <img src="images/fpo.jpg" alt="FPO" class="section_image">
+        <div class="shadow_yellow"></div>
+      </section>
+      <section class="Primary_CTA">
+        <a href="slice.html" class="Primary_button">View Project</a>
+      </section>
+    </section>
+
+    <!-- Project 4-->
+    <section class="Project_green">
+      <section class="section_text">
+        <h3 class="Section_Title_green">Advertising</h3>
+        <p class="project_text">
+          An overview of branding and design work I’ve done for clients including Allbirds, RH, DHC, and various healthcare brands.
+        </p>
+      </section>
+      <section class="image">
+        <img src="images/fpo.jpg" alt="FPO" class="section_image">
+        <div class="shadow_green"></div>
+      </section>
+      <section class="Primary_CTA">
+        <a href="slice.html" class="Primary_button">View Project</a>
+      </section>
+    </section>
+    <!-- End project section-->
+  </main>
+
+
+  <footer id="contact_anchor">
+    <section class="footertext">
+      <h2>Contact</h2>
+    </section>
+
+
+    <section class="ContactLinks">
+      <a href="mailto:neweickh@gmail.com" target="_blank">
+        <img src="images/email.png" alt="Email link" class="BottomNavLink">
+      </a>
+      <a href="https://www.linkedin.com/in/nancy-weickhardt-1a2a9557/" target="_blank">
+        <img src="images/linkedin.png" alt="Linkedin link" class="BottomNavLink">
+      </a>
+      <a href="https://github.com/nancyweickhardt" target="_blank">
+        <img src="images/github.png" alt="Github link" class="BottomNavLink">
+      </a>
+
+    </section>
+
+
+    <section class="post_footer">
+      <section class="post_footer_text">
+        <p>Designed and Coded by Nancy Weickhardt</p>
+      </section>
+    </section>
+  </footer>
+
+</body>
+
 </html>
