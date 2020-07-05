@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>Portfolio | Nancy Weickhardt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio | Nancy Weickhardt</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	  
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">	  
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
@@ -18,19 +16,29 @@
   <header>
     <nav class="nav_header">
       <div id="logo">
-        <a href="/"><img src="images/logo.png" width="50" alt="" class="logo"></a>
+        <a href="/"><img src="images/logo.png" alt="" class="logo"></a>
       </div>
-      <div class="burgermenu">
-        <a href="/"><img src="images/menu_filled.png" width="50" alt="" class="menu"></a>
-      </div>
-      <ul id="menu">
-        <li><a class="work-link" href="/">Portfolio</a></li>
-        <li><a class="about-link" class="on-page" href="/">About</a></li>
-        <li><a class="contact-link" href="/">Contact</a></li>
-        <li><a class="home-link" href="/">Home</a></li>
-      </ul>
+  <input id="toggle" type="checkbox"></input>
+
+<label for="toggle" class="hamburger">
+  <div class="top-bun">&nbsp;</div>
+  <div class="meat"></div>
+  <div class="bottom-bun"></div>
+</label>
+
+<div class="nav">
+  <div class="nav-wrapper">
+    <nav>
+      <a href="#">Portfolio</a><br>
+      <a href="#">About</a><br>
+      <a href="#">Contact</a><br>
+      <a href="#">Home</a>
+    </nav>
+  </div>
+</div>
     </nav>
   </header>
+	
 
   <main class="About">
 
