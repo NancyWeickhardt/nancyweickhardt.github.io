@@ -1,52 +1,105 @@
-header {
-   background: url(../images/NW_HERO.jpg) center / cover;
-   height: 60vh;
-   justify-content: center;
-   text-align: center;
- }
+@charset "UTF-8";
+/* CSS Document */
+
+.nav_header {
+
+background: #20363D;
+}
+
+.hero {
+	object-fit: cover;
+object-position: 0% 48.67%;;
+  width: 414px;
+  height: 295px;
+}
 
 body {
-	padding-bottom: 5rem;
+	max-width:414px;
 }
 
-h1 {
-	font-weight: bold;
-	color: rgba(151, 50, 101, .9);
+footer {
+width: 414px;
+height: 235.76px;
+left: 0px;
+top: 3449px;
+background: #8F706B;
 }
 
-.slogan {
-	font-weight: lighter;
-	color: rgba(24, 50, 101, .8);
-	font-size: 1.6rem;
+.footertext {
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 177.2%;
+/* identical to box height, or 43px */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
 }
 
-main {
-	max-width: 900px;
+.section_image {
+width: 374px;
+height: 288px;
 }
 
-.project-description {
-	padding-left: 0;
+.BottomNavLink {
+width: 54.45px;
+height: 54.45px;
 }
 
-.project img {
-	width: 100%;
+.contact-link {
+display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+align-content:flex-end;
 }
 
-footer.mdl-mini-footer {
-	bottom: 0;
-	padding: 0.5rem;
-	position: fixed;
-	width: 100%;
-	z-index: 1;
+.post_footer_text {
+font-family: Nunito Sans;
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 167.23%;
+/* or 23px */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;	
 }
 
-footer.mdl-mini-footer > ul {
-	margin: auto;
-	font-size: 2rem;
+.Project_pink {
+position: absolute;
+width: 414px;
+height: 704px;
+left: 0px;
+top: 677px;
+background: rgba(221, 200, 197, 0.24);
 }
 
-@media screen and (max-width: 1024px) {
-	header.mdl-layout__header {
-		display: flex;
-	}
+.Primary_button {
+  background-color: #20363D;;
+  color: #ffffff;
+  display: inline-block;
+ font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 120%;
+padding: 5px 14px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-decoration: none;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
 }
+
+.featuredbutton {
+left: 28.02%;
+right: 28.26%;
+	align-items: center;}
+
