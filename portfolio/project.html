@@ -1,48 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>Portfolio | Nancy Weickhardt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <title>Slice Cloud App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
-<body>
+<body class="container">
   <header>
     <nav class="nav_header">
       <div id="logo">
-        <a href="/"><img src="images/logo.png" width="50" alt="" class="logo"></a>
+        <a href="/"><img src="images/logo.png" alt="" class="logo"></a>
       </div>
-      <div id="logo">
-        <a href="/"><img src="images/menu_filled.png" width="50" alt="" class="menu"></a>
+      <input id="toggle" type="checkbox"></input>
+
+      <label for="toggle" class="hamburger">
+        <div class="top-bun">&nbsp;</div>
+        <div class="meat"></div>
+        <div class="bottom-bun"></div>
+      </label>
+
+      <div class="nav">
+        <div class="nav-wrapper">
+          <nav>
+            <a href="#">Portfolio</a><br>
+            <a href="#">About</a><br>
+            <a href="#">Contact</a><br>
+            <a href="#">Home</a>
+          </nav>
+        </div>
       </div>
-      <ul id="menu">
-        <li><a class="work-link" "on-page" href="/">Portfolio</a></li>
-        <li><a class="about-link" href="/">About</a></li>
-        <li><a class="contact-link" href="/">Contact</a></li>
-        <li><a class="home-link" href="/">Home</a></li>
-      </ul>
     </nav>
   </header>
+
 
   <main class="case_study">
 
     <section class="case_study_intro">
-      <section class="intro_text">
         <h1>Slice</h1>
         <h6>A Cloud Storage &amp; Organization App</h6>
         <p class="slogan">This project led to the creation of Slice, a cloud storage and organization app. The result was an app with the file storage and file creation capacity of Google Drive or Dropbox on a platform with a more social and creative
           vibe like Pinterest. </p>
-      </section>
       <section class="image">
-        <img src="images/slice_login_iphone.png" alt="Slice Cloud App Login" class="hero">
+        <img src="images/slice_login_iphone.png" alt="Slice Cloud App Login" class="hero_2">
         <div class="shadow_blue"></div>
       </section>
       <section class="Primary_CTA">
@@ -50,7 +59,6 @@
         <div class="button_spacer"></div>
         <a href="https://www.figma.com/proto/6hfGQRzO9BQZkmuxYKsRUE/slice-prototype-Copy?node-id=22%3A25&scaling=min-zoom" class="Primary_button">Desktop Prototype</a>
       </section>
-    </section>
     </section>
 
     <!-- Summary-->
@@ -78,7 +86,7 @@
       </section>
     </section>
 
-    <section class="Section_Green">
+    <section class="Section_green">
       <section class="section_text">
         <h3 class="Section_Title_Green">Solution</h3>
         <p class="body_text">The end result, Slice, is a responsive app that allows users to share content directly with their social media accounts as well as create folders which display items on a board-like interface. However, unlike some
@@ -733,31 +741,28 @@
 
 
   <footer id="contact_anchor">
-    <section class="footertext">
       <h2>Contact</h2>
-    </section>
+
+
 
     <section class="ContactLinks">
       <a href="mailto:neweickh@gmail.com" target="_blank">
         <img src="images/email.png" alt="Email link" class="BottomNavLink">
       </a>
-
       <a href="https://www.linkedin.com/in/nancy-weickhardt-1a2a9557/" target="_blank">
         <img src="images/linkedin.png" alt="Linkedin link" class="BottomNavLink">
       </a>
-
       <a href="https://github.com/nancyweickhardt" target="_blank">
         <img src="images/github.png" alt="Github link" class="BottomNavLink">
       </a>
 
     </section>
 
-    <section class="post_footer">
+
       <section class="post_footer_text">
         <p>Designed and Coded by Nancy Weickhardt</p>
       </section>
-    </section>
-  </footer>
+	</footer>
 
 </body>
 
