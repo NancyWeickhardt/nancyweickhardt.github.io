@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio | Nancy Weickhardt</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	  <!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<head>
+  <title>Portfolio | Nancy Weickhardt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -19,9 +20,9 @@
   <header>
     <nav class="nav_header">
       <div id="logo">
-        <a href="/"><img src="images/logo.png" alt="" class="logo"></a>
+        <a href="index.html"><img src="images/logo.png" alt="Nancy Weickhardt Logo" class="logo"></a>
       </div>
-      <input id="toggle" type="checkbox"/>
+      <input id="toggle" type="checkbox" />
 
       <label for="toggle" class="hamburger">
         <div class="top-bun">&nbsp;</div>
@@ -31,13 +32,10 @@
 
       <div class="nav">
         <div class="nav-wrapper">
-          <nav>
-            <p> <a href="#">Portfolio</a></p>
-            <p><br>
-              <a href="#">About</a><br>
-              <a href="#">Contact</a><br>
-              <a href="#">Home</a></p>
-          </nav>
+          <a href="#project_anchor">Portfolio</a><br>
+          <a href="about.html">About</a><br>
+          <a href="#contact_anchor">Contact</a><br>
+          <a href="index.html">Home</a>
         </div>
       </div>
     </nav>
@@ -47,15 +45,19 @@
   <main class="case_study">
 
     <section class="case_study_intro">
-        <h1>Slice</h1>
-        <h6 class="h6b">A Cloud Storage &amp; Organization App</h6>
-        <p class="slogan">This project led to the creation of Slice, a cloud storage and organization app. The result was an app with the file storage and file creation capacity of Google Drive or Dropbox on a platform with a more social and creative vibe like Pinterest. </p>
+      <h1>Slice</h1>
+      <h6>
+        <div class="h6_sub">A Cloud Storage &amp; Organization App</div>
+      </h6>
+      <p class="slogan">This project led to the creation of Slice, a cloud storage and organization app. The result was an app with the file storage and file creation capacity of Google Drive or Dropbox on a platform with a more social and creative
+        vibe like Pinterest. </p>
       <section class="image">
         <img src="images/slice_login_iphone.png" alt="Slice Cloud App Login" class="hero_2">
-        <div class="shadow_blue"></div>
       </section>
       <section class="Primary_CTA">
         <a href="https://www.figma.com/proto/n5mbXRsdI2Fuk9Q5D7asaD/Untitled?node-id=46%3A4&viewport=329%2C353%2C0.08213944733142853&scaling=scale-down" class="Primary_button">Mobile Prototype</a>
+        <div class="button_spacer"></div>
+        <div class="button_spacer"></div>
         <div class="button_spacer"></div>
         <a href="https://www.figma.com/proto/6hfGQRzO9BQZkmuxYKsRUE/slice-prototype-Copy?node-id=22%3A25&scaling=min-zoom" class="Primary_button">Desktop Prototype</a>
       </section>
@@ -76,7 +78,8 @@
     <section class="Section_pink">
       <section class="section_text">
         <h3 class="Section_Title_Pink">Problem</h3>
-        <p class="body_text">I was enlisted to create a new competitor in the growing Cloud App market. Overall, the main problem was how to put a fresh spin on a basic idea like cloud storage and somehow make it stand out from competition that had many of the same core functions. The product required all of the expected features of a cloud storage app (saving, uploading, organizing, and sharing content), while also providing something unique in order to draw the user in.
+        <p class="body_text">I was enlisted to create a new competitor in the growing Cloud App market. Overall, the main problem was how to put a fresh spin on a basic idea like cloud storage and somehow make it stand out from competition that had
+          many of the same core functions. The product required all of the expected features of a cloud storage app (saving, uploading, organizing, and sharing content), while also providing something unique in order to draw the user in.
         </p>
       </section>
       <section class="image">
@@ -94,7 +97,7 @@
       </section>
       <section class="image">
         <img src="images/slice_logo.jpg" alt="Slice: A Cloud Storage &amp; Organization App" class="body_image">
-       
+
       </section>
     </section>
 
@@ -118,19 +121,21 @@
         <div class="button_spacer"></div>
         <a href="https://docs.google.com/document/d/1w0bNsObyi96QhWlv_Qpdo4SvJ91zFoPq2Ha5q6LUk1c/edit?usp=sharing" class="secondary_button">Interview Notes</a>
       </section>
-<div class="button_spacer"></div>
-		<div class="button_spacer"></div>
-		<div class="button_spacer"></div>
+      <div class="button_spacer"></div>
+      <div class="button_spacer"></div>
+      <div class="button_spacer"></div>
       <section class="subsection">
         <img src="images/slice_graph_1.png" alt="What Cloud Apps Have You Used&#63;" class="sub_section_image">
-        <p class="caption_text">88.5&#37; of users surveyed have used Google Drive and Drop Box. There were also a significant usage with Evernote, Pinterest and Box. Other apps such as OneDrive and Flickr appeared to be much more niche products, only
+        <p class="caption_text">88.5&#37; of users surveyed have used Google Drive and Drop Box. There were also a significant usage with Evernote, Pinterest and Box. Other apps such as OneDrive and Flickr appeared to be much more niche products,
+          only
           receiving one response each.
         </p>
       </section>
 
       <section class="subsection">
         <img src="images/slice_graph_2.png" alt="Primary Reason for Using Cloud Apps&#63;" class="sub_section_image">
-        <p class="caption_text">84.6&#37;of users surveyed selected “storing files” as a primary purpose for using a Cloud platform. 65.4% also selected “sharing files or a group of items with others.” “Backing up files” and “collaborating on documents”
+        <p class="caption_text">84.6&#37;of users surveyed selected “storing files” as a primary purpose for using a Cloud platform. 65.4% also selected “sharing files or a group of items with others.” “Backing up files” and “collaborating on
+          documents”
           were also selected by over 50&#37; of the participants. Of all the primary uses, the response that stood out as by far the least favorable was “organizing digital content” with a less than 20% recorded response rate.
         </p>
       </section>
@@ -149,7 +154,8 @@
 
       <section class="subsection">
         <img src="images/slice_graph_5.jpg" alt="How likeley are you to a Cloud Apps to share content with friends&#63;" class="sub_section_image">
-        <p class="caption_text">88.5&#37; of users surveyed have used Google Drive and Drop Box. There were also a significant usage with Evernote, Pinterest and Box. Other apps such as OneDrive and Flickr appeared to be much more niche products, only
+        <p class="caption_text">88.5&#37; of users surveyed have used Google Drive and Drop Box. There were also a significant usage with Evernote, Pinterest and Box. Other apps such as OneDrive and Flickr appeared to be much more niche products,
+          only
           receiving one response each.
         </p>
       </section>
@@ -182,20 +188,17 @@
       <section class="Secondary_CTA">
         <a href="https://docs.google.com/document/d/1Xpop6pJXnp4TVg4q9SjnZNRgYZSd-BXCq9Tyzl0T8xc/edit?usp=sharing" class="secondary_button">View Full Analysis</a>
       </section>
-		<div class="button_spacer"></div>
-	
+      <div class="button_spacer"></div>
+
       <section class="three_images">
         <section class="image">
           <img src="images/slice_CA_box.png.png" alt="Box" class="box_image_box">
-          <div class="shadow_yellow"></div>
         </section>
         <section class="image">
           <img src="images/slice_CA_evernote.jpg" alt="Evernote" class="box_image_evernote">
-          <div class="shadow_yellow"></div>
         </section>
         <section class="image">
           <img src="images/slice_CA_pinterest.jpg" alt="Pinterest" class="box_image_pinterest">
-          <div class="shadow_yellow"></div>
         </section>
       </section>
     </section>
@@ -233,10 +236,9 @@
           <img src="images/slice_persona_1.jpg" alt="Persona: Basic Emily" class="persona_image">
           <div class="shadow_green"></div>
         </section>
-       <section class="Primary_CTA">
-        <a href="slice.html" class="secondary_button">View in Detail</a>
-      </section>
-    </section>
+        <section class="Primary_CTA">
+          <a href="slice.html" class="secondary_button">View in Detail</a>
+        </section>
       </section>
     </section>
 
@@ -383,21 +385,23 @@
         <p class="body_text">The main takaway from my first round of usability testing was that my prototype was missing some screens that would really help to show the app’s full functionality.
         </p>
       </section>
-		<div class="button_spacer"></div>
-		<div class="button_spacer"></div>
-		<div class="button_spacer"></div>
+      <div class="button_spacer"></div>
+      <div class="button_spacer"></div>
+      <div class="button_spacer"></div>
       <section class="section_text">
-        <ul><h6 class="Section_Title_Blue">Changes From Testing</h6>
-        <li class="body_text">Change Create Account CTA to just “creating an account with email” separate CTAs for FB or Twitter; not being obvious that there is a sign up via FB/Twitter option may discourage some users from signing up
-        </li>
-        <li class="body_text">Edits to language such as changing “Sign In” to “Log In”
-        </li>
-        <li class="body_text">Expanded space on screen for documents and spreadsheets
-        </li>
-        <li class="body_text">Adding more a variety of content to the homepage screen to to better highlight the multiple uses of the app
-        </li>
-        <li class="body_text">Screens showing sharing of content, especially with social media sharing. I further developed them by adding additional screens for sharing options and added in a message preview section for social media sharing
-        </li></ul>
+        <ul>
+          <h6 class="Section_Title_Blue">Changes From Testing</h6>
+          <li class="body_text">Change Create Account CTA to just “creating an account with email” separate CTAs for FB or Twitter; not being obvious that there is a sign up via FB/Twitter option may discourage some users from signing up
+          </li>
+          <li class="body_text">Edits to language such as changing “Sign In” to “Log In”
+          </li>
+          <li class="body_text">Expanded space on screen for documents and spreadsheets
+          </li>
+          <li class="body_text">Adding more a variety of content to the homepage screen to to better highlight the multiple uses of the app
+          </li>
+          <li class="body_text">Screens showing sharing of content, especially with social media sharing. I further developed them by adding additional screens for sharing options and added in a message preview section for social media sharing
+          </li>
+        </ul>
       </section>
       <div class="line"></div>
       <section class="image">
@@ -458,17 +462,17 @@
         </p>
       </section>
 
-        <div class="box_yellow">
-          <ul class="box_text">
-            <div class="box_header">BRAND CHARACTERISTICS</div>
-            <li>Artisanal</li>
-            <li>Friendly</li>
-            <li>Creative</li>
-            <li>Social</li>
-            <li>Fresh</li>
-            <li>I want to create content such as documents &amp; spreadsheets</li>
-          </ul>
-        </div>
+      <div class="box_yellow">
+        <ul class="box_text">
+          <div class="box_header">BRAND CHARACTERISTICS</div>
+          <li>Artisanal</li>
+          <li>Friendly</li>
+          <li>Creative</li>
+          <li>Social</li>
+          <li>Fresh</li>
+          <li>I want to create content such as documents &amp; spreadsheets</li>
+        </ul>
+      </div>
       <section class="Secondary_CTA">
         <a href="slice.html" class="secondary_button">View Brand Guidelines</a>
       </section>
@@ -520,8 +524,7 @@
         <a href="slice.html" class="secondary_button">View Wireframes in Detail</a>
       </section>
       <section class="image">
-        <img src="images/slice_hi_fi_1.png" alt="Hi-Fi Wireframe" class="section_image">
-        <div class="shadow_pink"></div>
+        <img src="images/slice_hi_fi_1.png" alt="Hi-Fi Wireframe" class="body_image">
       </section>
       <div class="line"></div>
       <section class="section_text">
@@ -554,7 +557,8 @@
         <img src="images/slice_pref_test_3.png" alt="Preference Test" class="body_image">
       </section>
       <section class="section_text">
-        <p class="body_text">For this test 72% of users preferred the blue header, 22&#37; of users preferred the purple header and 0&#37; preferred the yellow header. I can understand how users may have found the yellow header jarring compared to the colors
+        <p class="body_text">For this test 72% of users preferred the blue header, 22&#37; of users preferred the purple header and 0&#37; preferred the yellow header. I can understand how users may have found the yellow header jarring compared to
+          the colors
           on the rest of the screen. I got feedback that users selected both the purple and blue versions because they felt it was more harmonious. Another user commented that the blue was “easier on the eyes.”
         </p>
       </section>
@@ -567,7 +571,8 @@
         <div class="shadow_green"></div>
       </section>
       <section class="section_text">
-        <p class="body_text">For this test, Version 2 was the clear leader. 89% of users selected Version 2, while only 11&#37; of users selected. Some highlights of the reasoning for choosing Version 2 included “Easier to see which column you are using
+        <p class="body_text">For this test, Version 2 was the clear leader. 89% of users selected Version 2, while only 11&#37; of users selected. Some highlights of the reasoning for choosing Version 2 included “Easier to see which column you are
+          using
           for formulas,” and “I prefer the title to be at the very top of the sheet, and I like the way the cell labels are laid out.” The preferred version also is more compatible with UX design heuristics.
         </p>
       </section>
@@ -580,7 +585,8 @@
         <div class="shadow_green"></div>
       </section>
       <section class="section_text">
-        <p class="body_text">This was the closest of all of my tests. Macbook-2 (2 column layout) got 40&#37; of the votes and Macbook-3 (3-column layout) got 60&#37; of the votes. The reasons that were included for why a version was preferred focused on the
+        <p class="body_text">This was the closest of all of my tests. Macbook-2 (2 column layout) got 40&#37; of the votes and Macbook-3 (3-column layout) got 60&#37; of the votes. The reasons that were included for why a version was preferred
+          focused on the
           use of space. Users who voted for each version commented that they felt the option they chose was a better use of space.
         </p>
       </section>
@@ -620,7 +626,6 @@
       </section>
       <section class="image">
         <img src="images/slice_testing_part2_home.png" alt="Hi-Fi Wireframe Document Screen" class="body_image">
-        <div class="shadow_blue"></div>
       </section>
     </section>
 
@@ -633,7 +638,6 @@
       </section>
       <section class="image">
         <img src="images/slice_testing_part2.png" alt="Remote Usability Testing" class="body_image">
-        <div class="shadow_yellow"></div>
       </section>
       <section class="Secondary_CTA">
         <a href="slice.html" class="secondary_button">View Notes</a>
@@ -642,24 +646,26 @@
         <div class="button_spacer"></div>
         <a href="slice.html" class="secondary_button">View Prototype</a>
       </section>
-		<div class="button_spacer"></div>
+      <div class="button_spacer"></div>
       <section class="section_text">
         <h6 class="Section_Title_Yellow">Key Takeaways</h6>
         <p class="body_text">I found that the majority of participants preferred folders to organize content which I later incorporated into my design. I also found that users were likely to use Cloud Storage Apps to share content with friends. This
           was especially skewed towards women.
         </p>
       </section>
-		<div class="button_spacer"></div>
-		<div class="button_spacer"></div>
-		<div class="button_spacer"></div>
+      <div class="button_spacer"></div>
+      <div class="button_spacer"></div>
+      <div class="button_spacer"></div>
       <section class="section_text">
-        <ul><h6 class="Section_Title_Yellow">Changes From Testing</h6>
-        <li class="body_text">Change Create Account CTA to just “creating an account with email” separate CTAs for FB or Twitter; not being obvious that there is a sign up via FB/Twitter option may discourage some users from signing up
-        </li>
-        <li class="body_text">Clarify whether the user is on a page of their own or on a friend’s page
-        </li>
-        <li class="body_text">Expanded space on screen for documents and spreadsheets
-        </li></ul>
+        <ul>
+          <h6 class="Section_Title_Yellow">Changes From Testing</h6>
+          <li class="body_text">Change Create Account CTA to just “creating an account with email” separate CTAs for FB or Twitter; not being obvious that there is a sign up via FB/Twitter option may discourage some users from signing up
+          </li>
+          <li class="body_text">Clarify whether the user is on a page of their own or on a friend’s page
+          </li>
+          <li class="body_text">Expanded space on screen for documents and spreadsheets
+          </li>
+        </ul>
       </section>
       <div class="line"></div>
       <section class="image">
@@ -729,6 +735,8 @@
       <section class="Primary_CTA">
         <a href="https://www.figma.com/proto/n5mbXRsdI2Fuk9Q5D7asaD/Untitled?node-id=46%3A4&viewport=329%2C353%2C0.08213944733142853&scaling=scale-down" class="Primary_button">Mobile Prototype</a>
         <div class="button_spacer"></div>
+        <div class="button_spacer"></div>
+        <div class="button_spacer"></div>
         <a href="https://www.figma.com/proto/6hfGQRzO9BQZkmuxYKsRUE/slice-prototype-Copy?node-id=22%3A25&scaling=min-zoom" class="Primary_button">Desktop Prototype</a>
       </section>
     </section>
@@ -756,10 +764,10 @@
     </section>
 
 
-      <section class="post_footer_text">
-        <p>Designed and Coded by Nancy Weickhardt</p>
-      </section>
-	</footer>
+    <section class="post_footer_text">
+      <p>Designed and Coded by Nancy Weickhardt</p>
+    </section>
+  </footer>
 
 </body>
 
