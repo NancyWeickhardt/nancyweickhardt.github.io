@@ -43,6 +43,7 @@ a {
   right: 0;
   width: 60px;
   z-index: 2;
+  margin-right: 10px
 }
 
 .menu-wrap .hamburger {
@@ -57,6 +58,7 @@ a {
   top: 0;
   width: 60px;
   z-index: 1;
+  margin-right: 10px;
 }
 
 /* Hamburger line */
@@ -212,9 +214,9 @@ nav {
 
 .logo {
   position: absolute;
-  width: 108px;
-  left: -20px;
-  top: 8px;
+  width: 103px;
+  left: -10px;
+  top: 15px;
   padding-left: 40px;
 }
 
@@ -345,6 +347,17 @@ h6 {
 }
 
 .body_text_2 {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 25px */
+  padding: 10px 0px 10px 0px;
+  color: #3E4041;
+}
+
+.body_text_wrap {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
@@ -535,6 +548,11 @@ h6 {
 	color: #6F5551;
 }
 
+.pink_bnr {
+	background: #6F5551;
+	padding: 5px 20px;
+}
+
 .yellow_bkg {
 	background: rgba(232, 225, 151, 0.21);
 }
@@ -552,21 +570,32 @@ h6 {
 .hero_about {
   object-fit: cover;
   width: 100%;
-  box-shadow: 0px 20px 12px rgba(221, 200, 197, 0.24);
+  box-shadow: 0px 20px 22px rgba(221, 200, 197, 0.29);
   
 }
 
-.image_about {
-	align-content: center;
-	justify-content: center;
-	text-align: center;
-	background-color: rgba(221, 200, 197, 0.54);
+.float_box {
+	max-width: 760px;
 }
 
 .about_text {
 max-width: 760px;
 align-content: center;
 justify-content: center;
+}
+
+.about_text-wrap {
+	padding: 20px 20px;
+}
+
+.about_intro {	
+  padding: 40px 20px 0px;
+}
+
+.about_container {
+  padding: 30px 0px;
+  align-content: center;
+  justify-content: center;
 }
 
 /* Sub Section*/
@@ -630,6 +659,14 @@ justify-content: center;
   padding: 0px 10px 0px 10px;
 }
 
+.persona_image_2 {
+  object-fit: cover;
+  object-position: 51% 18.67%;
+  width: 180px;
+  height: 180px;
+  padding: 0px 10px 0px 10px;
+}
+
 .persona_right {
   text-align: center;
 }
@@ -680,6 +717,44 @@ justify-content: center;
   display: inherit;
   text-align: center;
 }
+
+.box_text {
+  font-family: Nunito Sans Black;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 147.2%;
+  /* or 38px */
+  color: #FFFFFF;
+}
+
+.box_blue {
+  background: #6F5551;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 30px;
+  margin: 20px 0px;
+}
+
+.box_blue ul > li {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.box_yellow {
+  width: 80%;
+  background: #616556;
+  border: 0.354545px solid #616556;
+  box-sizing: border-box;
+  display: flex;
+  padding: 30px;
+  margin: 20px 0px;
+}
+
 
 .proto_image {
   display: inline-block;
@@ -751,9 +826,28 @@ a .ContactLinks {
 @media screen and (min-width: 600px) {
 	
   .hero_about {
-  width: 70%;
+  width: 60%;
   max-width: 760px;
+  float: left;
+  left: 200px;
 }
+	
+.hero_about {
+ margin-right: 20px;
+  
+}	
+	
+	.float_box {
+		padding left: 60px;	
+}
+
+.space_about {align-content: flex-start
+}
+	
+.about_wrap {
+  margin: 0 auto;
+	}	
+	
 	.bnr_title {
 		padding: 0px 30px
 	}
@@ -773,12 +867,15 @@ a .ContactLinks {
 	
 	.body_text {
   font-size: 18px;
-
 }
 	
 	.body_text_2 {
   font-size: 18px;
   padding: 0px 0px
+
+}
+		.wrap {
+			padding: 20px;
 
 }
 	.line {
@@ -795,16 +892,40 @@ a .ContactLinks {
   font-size: 20px;
   margin-top: 10px;
 }	
+	
+	.about_container {
+		padding: 0px 40px;
+	}
+	
+	.about_text {
+padding-bottom: 50px;
 }
+	
+	.about_intro {
+		padding: 20px 40px;
+	}
+}
+
+.future {
+		padding: 0px 20px;
+	}
 
 @media screen and (min-width: 800px) {
 
 .container {
+	
+}	
+	
+	.about_intro {
+		padding: 40px 100px;
+	}
+	.body_text {
+  max-width: 340px;
 }	
 
 .line {
   border: .5px solid #20363D;
-  margin: 70px 0px;
+  margin:30px 0px;
 }
 	
 /* Flex Grid related */
@@ -865,17 +986,35 @@ a .ContactLinks {
   font-size: 20px;
   margin-top: 10px;
 }	
+	
+	.future {
+		padding: 10px 20px 30px;
+	}
 
 	.project_container {
-		padding: 20px 80px;
+		padding: 20px 0px;
 		align-content: center;
 justify-content: center;
+		max-width: 1200px;
 	}
 	
 		.project_container_2 {
 		padding: 20px 120px 40px;
 		align-content: center;
 justify-content: center;
+			
+		max-width: 1200px;
+	}
+	
+		.about_container {
+  padding: 20px 200px;
+  align-content: center;
+  justify-content: center;
+}
+	
+		
+	.about_intro {
+		padding: 20px 200px;
 	}
 
 /* Intro */
@@ -889,8 +1028,8 @@ nav {
 
 .logo {
   position: absolute;
-  width: 120px;
-  left: 5px;
+  width: 100px;
+  left: 15px;
   top: 10px;
   padding-left: 10px;
 }	
@@ -929,12 +1068,13 @@ nav {
 	}
 	
 	.body_text {
-		font-size: 20px;
+		font-size: 21px;
 		max-width: 760px;
+		padding: 20px 0px;
 	}
 	
 		.body_text_2 {
-		font-size: 20px;
+		font-size: 21px;
 		max-width: 900px;
 	}
 	
