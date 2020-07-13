@@ -216,7 +216,6 @@ nav {
   padding: 40px 0px;
 }
 
-/* Images */
 .hero {
   width: 100%;
   box-shadow: 0px 4px 8px rgba(134, 139, 118, 0.55);
@@ -317,6 +316,14 @@ h6 {
   text-align: left;
 }
 
+.space {
+  padding: 0px 20px;
+}
+
+.space_r {
+  padding-left: 20px;
+}
+
 .slogan {
   font-family: Nunito Sans;
   font-style: normal;
@@ -336,7 +343,7 @@ h6 {
   font-size: 17px;
   line-height: 150%;
   /* or 25px */
-  padding: 5px 0px 5px;
+  padding: 15px 0px 10px;
   color: #3E4041;
 }
 
@@ -347,7 +354,7 @@ h6 {
   font-size: 17px;
   line-height: 150%;
   /* or 25px */
-  padding: 5px 0px 5px;
+  padding: 15px 0px 10px;
   color: #3E4041;
 }
 
@@ -358,7 +365,7 @@ h6 {
   font-size: 17px;
   line-height: 150%;
   /* or 25px */
-  padding: 5px 0px 5px;
+  padding: 15px 0px 10px;
   color: #3E4041;
 }
 
@@ -446,14 +453,6 @@ h6 {
 
 .button_spacer {
   height: 5px
-}
-
-.space {
-  padding: 0px 20px;
-}
-
-.space_r {
-  padding-left: 20px;
 }
 
 /* Project */
@@ -646,7 +645,6 @@ h6 {
   height: 25px;
 }
 
-/* Project */
 .box_image_evernote {
   object-fit: cover;
   object-position: 51% 18.67%;
@@ -900,7 +898,6 @@ a .ContactLinks {
   color: #FFFFFF;
 }
 
-/* Tablet and larger phones */
 @media screen and (min-width: 600px) {
   .hero_about {
     width: 60%;
@@ -998,14 +995,15 @@ a .ContactLinks {
   .about_intro {
     padding: 20px 40px;
   }
-
-  .future {
-    padding: 0px 20px;
-  }
 }
 
-/* For desktop */
+.future {
+  padding: 0px 20px;
+}
+
 @media screen and (min-width: 950px) {
+  .container {}
+
   .hero_2 {
     display: block;
     margin-left: auto;
@@ -1060,17 +1058,6 @@ a .ContactLinks {
     padding: 20px 40px
   }
 
-  .float_right {
-    float: right;
-    margin-right: 18%;
-  }
-
-  .float_left {
-    float: left;
-    margin-left: 9%;
-  }
-
-  /* Persona */
   .persona {
     display: grid;
   }
@@ -1146,7 +1133,6 @@ a .ContactLinks {
     display: inline-block;
   }
 
-  /* Buttons */
   .Primary_button {
     font-size: 13px;
     padding: 9px 14px 7px;
@@ -1163,6 +1149,16 @@ a .ContactLinks {
     padding-bottom: 5px;
   }
 
+  .float_right {
+    float: right;
+    margin-right: 18%;
+  }
+
+  .float_left {
+    float: left;
+    margin-left: 9%;
+  }
+
   .Primary_button_hero {
     font-size: 14px;
     line-height: 100%;
@@ -1170,7 +1166,6 @@ a .ContactLinks {
     width: 220px;
   }
 
-  /* Project */
   .project_text {
     margin: 10px 40px 0px;
     max-width: 440px;
@@ -1211,18 +1206,6 @@ a .ContactLinks {
     justify-content: center;
   }
 
-  .project_spacer {
-    height: 35px;
-  }
-
-  .three_images {
-    display: grid;
-    text-align: center;
-    padding: 70px 10px 10px;
-    margin-top: 0;
-  }
-
-  /* About*/
   .about_container {
     padding: 20px 200px;
     align-content: center;
@@ -1288,7 +1271,7 @@ a .ContactLinks {
     font-size: 33px;
     line-height: 130%;
     max-width: 760px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   h5 {
@@ -1309,6 +1292,18 @@ a .ContactLinks {
 
   .body_text_2 {
     font-size: 18px;
+  }
+
+  /* Project */
+  .project_spacer {
+    height: 35px;
+  }
+
+  .three_images {
+    display: grid;
+    text-align: center;
+    padding: 70px 10px 10px;
+    margin-top: 0;
   }
 
   /* DESKTOP NAV, HAMBURGER DISAPPEAR */
@@ -1333,13 +1328,12 @@ a .ContactLinks {
     display: none;
   }
 
-  /* Footer Desktop */
+  /* Footer Desktop*/
   footer {
     padding: 40px;
   }
 }
 
-/* Larger desktop screens to avoid glitch with float */
 @media screen and (min-width: 1050px) {
   .Primary_button {
     margin-top: -14%;
