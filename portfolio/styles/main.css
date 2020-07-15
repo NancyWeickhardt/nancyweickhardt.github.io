@@ -26,6 +26,9 @@ a {
 .container {
   width: auto;
   margin: 0px;
+  max-with: 1400px;
+  align-content: center;
+  justify-content: center;
 }
 
 /* Hamburger Menu */
@@ -216,7 +219,7 @@ nav {
 }
 
 .intro {
-  padding: 40px 0px;
+  padding: 40px 20px;
 }
 
 .hero {
@@ -940,6 +943,8 @@ a .ContactLinks {
 
   .project_container_2 {
     padding: 50px 80px;
+	   align-content: center;
+    justify-content: center;
   }
 
   .project_container_3 {
@@ -951,19 +956,16 @@ a .ContactLinks {
   .body_text {
     font-size: 18px;
     padding: 0px 0px;
-    max-width: 600px;
   }
 
   .body_text_2 {
     font-size: 18px;
     padding: 0px 0px;
-    max-width: 600px;
   }
 
   .body_text_3 {
     font-size: 18px;
     padding: 0px 0px;
-    max-width: 600px;
   }
 
   .line {
@@ -1138,7 +1140,6 @@ a .ContactLinks {
   .Primary_button {
     font-size: 13px;
     padding: 9px 14px 7px;
-    margin-top: -55px;
   }
 
   .Primary_button_l {
@@ -1152,13 +1153,9 @@ a .ContactLinks {
   }
 
   .float_right {
-    float: right;
-    margin-right: 18%;
   }
 
   .float_left {
-    float: left;
-    margin-left: 9%;
   }
 
   .Primary_button_hero {
@@ -1191,25 +1188,29 @@ a .ContactLinks {
   }
 
   .project_container {
-    padding: 20px 105px 50px;
+  width: 800px;
+	margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_2 {
-    padding: 20px 220px 40px;
+   width: 800px;
+	margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_3 {
-    padding: 20px 220px 40px;
+  width: 800px;
+	margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .about_container {
-    padding: 20px 200px;
+	width: 800px;
+	margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
@@ -1336,8 +1337,5 @@ a .ContactLinks {
   }
 }
 
-@media screen and (min-width: 1050px) {
-  .Primary_button {
-    margin-top: -14%;
-  }
-}
+
+
