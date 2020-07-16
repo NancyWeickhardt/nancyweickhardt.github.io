@@ -1094,12 +1094,12 @@ a .ContactLinks {
   }
 
   .persona_left {
-    align-content: left;
+    align-content: flex-end;
   }
 
   .persona_right {
-    align-content: right;
-    margin-left: 80px;
+    align-content: flex-start;
+    margin-left: 70px;
   }
 
   .persona_details_r {
