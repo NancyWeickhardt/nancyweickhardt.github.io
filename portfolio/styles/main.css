@@ -740,9 +740,9 @@ h6 {
 }
 
 .persona_name {
-  font-family: Nunito Sans ExtraBold;
+  font-family: Nunito Sans;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 18px;
   line-height: 26px;
   /* or 144% */
@@ -752,9 +752,9 @@ h6 {
 }
 
 .persona_name_r {
-  font-family: Nunito Sans ExtraBold;
+  font-family: Nunito Sans;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 18px;
   line-height: 26px;
   /* or 144% */
@@ -803,6 +803,9 @@ h6 {
   display: flex;
   padding: 30px;
   margin: 20px 0px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;	
 }
 
 .box_blue ul>li {
@@ -811,6 +814,9 @@ h6 {
   display: flex;
   padding: 5px;
   margin-top: 10px;
+   font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;	
 }
 
 .box_yellow {
@@ -820,6 +826,9 @@ h6 {
   display: flex;
   padding: 30px;
   margin: 20px 0px;
+   font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;	
 }
 
 .box_yellow ul>li {
@@ -828,6 +837,9 @@ h6 {
   display: flex;
   padding: 5px;
   margin-top: 10px;
+   font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;	
 }
 
 .section_text ul {
@@ -1097,12 +1109,18 @@ a .ContactLinks {
   .persona_name_r {
     text-align: right;
     padding-left: 10px;
+	   font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
   }
 
   .persona_name {
     text-align: left;
     padding-left: 10px;
-    margin-top: 5px;
+    margin-top: 5px; 
+	   font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
   }
 
   .persona_details {
