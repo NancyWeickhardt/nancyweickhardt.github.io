@@ -346,7 +346,7 @@ h6 {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 150%;
   /* or 25px */
   padding: 15px 0px 10px;
@@ -357,7 +357,7 @@ h6 {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 150%;
   /* or 25px */
   padding: 15px 0px 10px;
@@ -368,7 +368,7 @@ h6 {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 150%;
   /* or 25px */
   padding: 15px 0px 10px;
@@ -678,8 +678,8 @@ h6 {
 .persona_image {
   object-fit: cover;
   object-position: 51% 18.67%;
-  width: 180px;
-  height: 180px;
+  width: 280px;
+  height: 280px;
   padding: 20px 10px 0px;
   margin-bottom: 20px;
 }
@@ -687,8 +687,8 @@ h6 {
 .persona_image_2 {
   object-fit: cover;
   object-position: 51% 18.67%;
-  width: 180px;
-  height: 180px;
+  width: 280px;
+  height: 280px;
   padding: 20px 10px 0px;
   margin-bottom: 20px;
 }
@@ -943,7 +943,7 @@ a .ContactLinks {
 
   .project_container_2 {
     padding: 50px 80px;
-	   align-content: center;
+    align-content: center;
     justify-content: center;
   }
 
@@ -1015,6 +1015,21 @@ a .ContactLinks {
     width: 50%;
     height: 50%;
     max-width: 830px;
+  }
+
+  .body_text {
+    font-size: 18px;
+    padding: 20px 0px;
+  }
+
+  .body_text_2 {
+    font-size: 18px;
+    padding: 20px 0px;
+  }
+
+  .body_text_3 {
+    font-size: 18px;
+    padding: 20px 0px;
   }
 
   .caption_text {
@@ -1137,10 +1152,7 @@ a .ContactLinks {
     display: inline-block;
   }
 
-  .Primary_button {
-    font-size: 13px;
-    padding: 9px 14px 7px;
-  }
+  .Primary_button {}
 
   .Primary_button_l {
     text-align: left;
@@ -1152,11 +1164,9 @@ a .ContactLinks {
     padding-bottom: 5px;
   }
 
-  .float_right {
-  }
+  .float_right {}
 
-  .float_left {
-  }
+  .float_left {}
 
   .Primary_button_hero {
     font-size: 14px;
@@ -1188,29 +1198,29 @@ a .ContactLinks {
   }
 
   .project_container {
-  width: 800px;
-	margin: 0 auto;
+    width: 850px;
+    margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_2 {
-   width: 800px;
-	margin: 0 auto;
+    width: 850px;
+    margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_3 {
-  width: 800px;
-	margin: 0 auto;
+    width: 850px;
+    margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .about_container {
-	width: 800px;
-	margin: 0 auto;
+    width: 850px;
+    margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
@@ -1288,15 +1298,6 @@ a .ContactLinks {
     line-height: 140%;
   }
 
-  .body_text {
-    font-size: 18px;
-    padding: 20px 0px;
-  }
-
-  .body_text_2 {
-    font-size: 18px;
-  }
-
   /* Project */
   .project_spacer {
     height: 35px;
@@ -1336,6 +1337,3 @@ a .ContactLinks {
     padding: 40px;
   }
 }
-
-
-
