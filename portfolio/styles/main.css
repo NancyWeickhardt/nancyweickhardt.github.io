@@ -442,6 +442,13 @@ h6 {
   vertical-align: middle;
 }
 
+.Primary_CTA_l {
+  padding: 15px 0px 20px;
+  text-align: left;
+  vertical-align: middle;
+  display: none;	
+}
+
 .secondary_button {
   color: #086C7A;
   display: inline-block;
@@ -1072,12 +1079,12 @@ a .ContactLinks {
     flex: 1;
     vertical-align: middle;
     padding: 0px 0px;
-    max-width: 600px;
+    max-width: 700px;
   }
 
   .column_2 {
     flex: 1;
-    max-width: 600px;
+    max-width: 700px;
   }
 
   .row_2 {
@@ -1170,7 +1177,9 @@ a .ContactLinks {
     display: inline-block;
   }
 
-  .Primary_button {}
+  .Primary_button {
+	margin: 15px 0px;  
+	}
 
   .Primary_button_l {
     text-align: left;
@@ -1179,8 +1188,17 @@ a .ContactLinks {
 
   .Primary_button_r {
     text-align: right;
-    padding-bottom: 5px;
+    padding: 5px;
   }
+	
+		.Primary_CTA {
+	display: none; }
+	
+	.Primary_CTA_l {
+  padding: 15px 0px 20px;
+  text-align: left;
+		vertical-align: middle;
+	display:inline; }
 
   .float_right {}
 
@@ -1344,6 +1362,7 @@ a .ContactLinks {
 
   .desktop-nav ul li a:hover {
     color: #A6B8B2;
+	text-transform: uppercase;
   }
 
   .menu-wrap {
