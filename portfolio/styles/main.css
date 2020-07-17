@@ -15,6 +15,10 @@
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Nunito Sans;
 }
@@ -202,7 +206,8 @@ nav {
   padding: 20px 10px;
   list-style: none;
   text-decoration: none;
-  opacity: .9
+  opacity: .9;
+scroll-behavior: smooth;
 }
 
 .container .showcase-inner {
