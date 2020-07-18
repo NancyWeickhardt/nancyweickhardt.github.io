@@ -1214,12 +1214,13 @@ a .ContactLinks {
   .persona_right {
     text-align: right;
     display: inline-block;
+	  padding-top: 40px;
   }
 
   .persona_left {
     text-align: left;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .persona_details {
