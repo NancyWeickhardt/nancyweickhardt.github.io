@@ -1,7 +1,7 @@
 // Back to Top Button
 
 let scrollPos = 0;
-const backToTopButton = document.querySelector('.back-to-top');
+let backToTopButton = document.querySelector('.back-to-top');
 
 function checkPosition() {
   let windowY = window.scrollY;
