@@ -217,9 +217,9 @@ scroll-behavior: smooth;
 
 .logo {
   position: absolute;
-  width: 103px;
+  width: 113px;
   left: -10px;
-  top: 15px;
+  top: 5px;
   padding-left: 40px;
 }
 
@@ -380,6 +380,17 @@ h6 {
   color: #3E4041;
 }
 
+.body_text_half {
+	  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 25px */
+  padding: 15px 0px 10px;
+  color: #3E4041;
+}
+
 .body_text_wrap {
   font-family: Nunito Sans;
   font-style: normal;
@@ -406,6 +417,8 @@ h6 {
 }
 
 /* Buttons */
+
+
 .Primary_button {
   background-color: #20363D;
   color: #ffffff;
@@ -421,6 +434,14 @@ h6 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   vertical-align: middle;
+}
+
+.Primary_button:hover {
+  background-color: #BDD9D9;
+  color: #20363D;
+  border: .5px solid #20363D;
+box-sizing: border-box;	
+	opacity: .8;
 }
 
 .Primary_button_hero {
@@ -441,7 +462,21 @@ h6 {
   vertical-align: middle;
 }
 
+.Primary_button_hero:hover {
+	 background-color: #BDD9D9;
+  color: #20363D;
+  border: .5px solid #20363D;
+box-sizing: border-box;	
+	opacity: .8;
+}
+
 .Primary_CTA {
+  padding: 10px 0px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Primary_CTA_1 {
   padding: 10px 0px 20px;
   text-align: center;
   vertical-align: middle;
@@ -467,6 +502,11 @@ h6 {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.secondary_button:hover {
+	color:#8F706B;
+	text-decoration-line: underline;
 }
 
 .button_spacer {
@@ -551,7 +591,7 @@ h6 {
   margin-right: auto;
   width: 100%;
   box-shadow: 0px 6px 12px rgba(134, 139, 118, 0.15);
-  margin: 20px 0px
+ 
 }
 
 /* Color schemes */
@@ -656,7 +696,7 @@ h6 {
   line-height: 150%;
   /* or 19px */
   letter-spacing: 0.03em;
-  color: #000000;
+  color: #3E4041;
 }
 
 .caption_spacer {
@@ -690,8 +730,8 @@ h6 {
 .persona_image {
   object-fit: cover;
   object-position: 51% 18.67%;
-  width: 280px;
-  height: 280px;
+  width: 180px;
+  height: 180px;
   padding: 20px 10px 0px;
   margin-bottom: 20px;
 }
@@ -699,8 +739,8 @@ h6 {
 .persona_image_2 {
   object-fit: cover;
   object-position: 51% 18.67%;
-  width: 280px;
-  height: 280px;
+  width: 180px;
+  height: 180px;
   padding: 20px 10px 0px;
   margin-bottom: 20px;
 }
@@ -960,47 +1000,58 @@ a .ContactLinks {
   }
 
   .project_container {
-    padding: 50px 80px;
+    padding: 80px 125px;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_2 {
-    padding: 50px 80px;
+    padding: 80px 125px;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_3 {
-    padding: 50px 80px;
+    padding: 80px 125px;
     align-content: center;
     justify-content: center;
   }
+	
+	  .about_container {
+    padding: 80px 160px;
+    align-content: center;
+    justify-content: center;
+  }
+	
+	
+	
+	 .intro {
+    top: 60px;
+    padding: 20px 85px;
+  }
+
 
   .body_text {
     font-size: 18px;
-    padding: 0px 0px;
   }
 
   .body_text_2 {
     font-size: 18px;
-    padding: 0px 0px;
   }
 
   .body_text_3 {
     font-size: 18px;
-    padding: 0px 0px;
   }
+	
+	.body_text_half {
+		font-size: 18px;
+	}
 
   .line {
     border: .5px solid #20363D;
     margin: 30px 0px;
   }
 
-  .intro {
-    top: 60px;
-    padding: 20px 70px;
-  }
 
   .project_des {
     font-size: 20px;
@@ -1029,8 +1080,12 @@ a .ContactLinks {
   padding: 0px 20px;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 800px) {
   .container {}
+	
+	.bnr_title {
+		padding-left: 120px;
+	}
 
   .hero_2 {
     display: block;
@@ -1043,17 +1098,22 @@ a .ContactLinks {
 
   .body_text {
     font-size: 18px;
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
 
   .body_text_2 {
     font-size: 18px;
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
 
   .body_text_3 {
     font-size: 18px;
-    padding: 20px 0px;
+    padding: 10px 0px;
+  }
+	
+	 .body_text_half {
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
   }
 
   .caption_text {
@@ -1066,7 +1126,7 @@ a .ContactLinks {
   }
 
   .project_image {
-    margin-top: 40px;
+    margin-top: 20px;
     vertical-align: text-bottom;
   }
 
@@ -1084,12 +1144,13 @@ a .ContactLinks {
     flex: 1;
     vertical-align: middle;
     padding: 0px 0px;
-    max-width: 700px;
+    max-width: 750px;
   }
 
   .column_2 {
     flex: 1;
-    max-width: 700px;
+    max-width: 750px;
+	vertical-align: middle;
   }
 
   .row_2 {
@@ -1102,16 +1163,17 @@ a .ContactLinks {
   }
 
   .persona {
-    display: grid;
+    display: flex;
   }
 
   .persona_left {
     align-content: flex-end;
+	  margin-left: 50px;
   }
 
   .persona_right {
     align-content: flex-start;
-    margin-left: 70px;
+    margin-left: 50px;
   }
 
   .persona_details_r {
@@ -1140,13 +1202,13 @@ a .ContactLinks {
   }
 
   .persona_image {
-    width: 175px;
-    height: 175px;
+    width: 125px;
+    height: 125px;
   }
 
   .persona_image_2 {
-    width: 175px;
-    height: 175px;
+    width: 125px;
+    height: 125px;
   }
 
   .persona_right {
@@ -1190,15 +1252,24 @@ a .ContactLinks {
     text-align: left;
     padding-bottom: 5px;
   }
-
+	
+.Primary_button a:hover {
+  background-color: #ffffff;
+  color: #20363D;	 
+}	
   .Primary_button_r {
     text-align: right;
     padding: 5px;
   }
 	
-		.Primary_CTA {
-	display: none; }
+	 .Primary_button_r a:hover {
+   background-color: #ffffff;
+  color: #20363D;	 
+  }
 	
+		.Primary_CTA_1 {
+	display: none; }
+
 	.Primary_CTA_l {
   padding: 15px 0px 20px;
   text-align: left;
@@ -1217,21 +1288,22 @@ a .ContactLinks {
   }
 
   .project_text {
-    margin: 10px 40px 0px;
-    max-width: 440px;
+    margin: 10px 10px 0px;
+    max-width: 460px;
   }
 
   .image {
     max-width: 425px;
-    padding: 10px 20px;
+    padding: 0px 20px;
     align-content: center;
     justify-content: center;
     text-align: center;
+	vertical-align: middle;
   }
 
   .project_des {
     font-size: 20px;
-    margin-top: 10px;
+    margin: 0px 5px;
   }
 
   .future {
@@ -1239,28 +1311,28 @@ a .ContactLinks {
   }
 
   .project_container {
-    width: 750px;
+    width: 850px;
     margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_2 {
-    width: 750px;
+    width: 850px;
     margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .project_container_3 {
-    width: 750px;
+    width: 850px;
     margin: 0 auto;
     align-content: center;
     justify-content: center;
   }
 
   .about_container {
-    width: 750px;
+    width: 850px;
     margin: 0 auto;
     align-content: center;
     justify-content: center;
@@ -1287,6 +1359,7 @@ a .ContactLinks {
     height: 150px;
     margin: 20px 10px 30px 10px;
   }
+	
 
   /* Intro */
   nav {
@@ -1298,15 +1371,15 @@ a .ContactLinks {
 
   .logo {
     position: absolute;
-    width: 100px;
+    width: 111px;
     left: 15px;
-    top: 10px;
-    padding-left: 10px;
+    top: 5px;
+    padding-left: 5px;
   }
 
   .intro {
     top: 60px;
-    padding: 20px 200px;
+    padding: 20px 260px;
   }
 
   /* Type */
@@ -1347,7 +1420,7 @@ a .ContactLinks {
   .three_images {
     display: grid;
     text-align: center;
-    padding: 70px 10px 10px;
+    padding: 70px 10px 0px;
     margin-top: 0;
   }
 
