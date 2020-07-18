@@ -1113,7 +1113,7 @@ a .ContactLinks {
 	
 	 .body_text_half {
     font-size: 18px;
-    padding: 10px 20px 10px 5px;
+    padding: 10px 0px 10px 0px;
   }
 
   .caption_text {
@@ -1167,12 +1167,12 @@ a .ContactLinks {
   }
 
   .persona_left {
-    align-content: flex-end;
+    vertical-align: top;
 	  margin-left: 50px;
   }
 
   .persona_right {
-    align-content: flex-start;
+    vertical-align: top;
     margin-left: 50px;
   }
 
@@ -1233,11 +1233,13 @@ a .ContactLinks {
   .persona_name {
     font-size: 19px;
     padding-left: 15px;
+	  vertical-align: top;
   }
 
   .persona_name_r {
     font-size: 19px;
     padding-right: 15px;
+	  vertical-align: top;
   }
 
   .persona {
@@ -1379,7 +1381,7 @@ a .ContactLinks {
 
   .intro {
     top: 60px;
-    padding: 20px 260px;
+    padding: 20px 140px;
   }
 
   /* Type */
