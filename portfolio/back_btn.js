@@ -20,7 +20,8 @@ function checkPosition() {
 function debounce(func, wait = 10, immediate = true) {
   let timeout;
   return function() {
-    let context = this, args = arguments;
+    let context = this,
+      args = arguments;
     let later = function() {
       timeout = null;
       if (!immediate) func.apply(context, args);
