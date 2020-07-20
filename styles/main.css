@@ -170,8 +170,19 @@ a {
   font-family: Nunito Sans;
   font-size: 25px;
   list-style: none;
-  padding: .4rem;
+  padding: .6rem;
   transition: color 0.4s ease;
+}
+
+.menu-wrap .menu>div>div>ul>li:hover {
+  color: #8DB2A6;
+  font-family: Nunito Sans;
+  font-size: 25px;
+  font-weight: 600px;
+  list-style: none;
+  padding: .6rem;
+  transition: color 0.4s ease;
+  text-transform: uppercase;
 }
 
 .menu-wrap .menu>div>div>ul>li>a {
@@ -199,10 +210,10 @@ a {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 100%;
-  padding: 8px 6px 6px;
-  width: 80px;
+  padding: 10px 20px;
+  width: 180px;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
