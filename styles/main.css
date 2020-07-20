@@ -536,8 +536,8 @@ h6 {
   padding: 10px 0px 20px;
   text-align: center;
   vertical-align: middle;
-	justify-content: center;
-	display: grid;
+  justify-content: center;
+  display: grid;
 }
 
 .Primary_CTA_1 {
@@ -664,7 +664,8 @@ h6 {
 }
 
 .project_spacer {
-	height: 5px;}
+  height: 5px;
+}
 
 .row {
   display: flex;
@@ -715,6 +716,7 @@ h6 {
   width: 100%;
   box-shadow: 0px 6px 12px rgba(134, 139, 118, 0.15);
 }
+
 /* Color schemes */
 .blue_bkg {
   background: rgba(95, 116, 127, 0.15);
@@ -1200,8 +1202,6 @@ a .ContactLinks {
 }
 
 @media screen and (min-width: 800px) {
-  .container {}
-
   .hero_2 {
     display: block;
     margin-left: auto;
@@ -1230,13 +1230,13 @@ a .ContactLinks {
     font-size: 18px;
     padding: 10px 0px;
   }
-	
-	  .body_text_half_l {
+
+  .body_text_half_l {
     font-size: 18px;
     padding: 10px 20px 10px 0px;
   }
-	
-	  .body_text_half_r {
+
+  .body_text_half_r {
     font-size: 18px;
     padding: 10px 0px;
   }
@@ -1253,8 +1253,8 @@ a .ContactLinks {
   .project_image {
     margin: 45px 20px;
   }
-	
-	.project_image_l {
+
+  .project_image_l {
     margin: 45px -20px;
   }
 
@@ -1272,7 +1272,7 @@ a .ContactLinks {
     flex: 1;
     vertical-align: bottom;
     padding: 0px 0px;
-	 margin: 0px -10px;
+    margin: 0px -10px;
   }
 
   .column_2 {
@@ -1374,15 +1374,15 @@ a .ContactLinks {
   }
 
   .Primary_button {
-	  padding: 10px 8px 10px;
+    padding: 10px 8px 10px;
     width: 150px;
-	  margin-top: 20px;
+    margin-top: 20px;
   }
 
   .Primary_button_l {
     text-align: left;
     padding-bottom: 5px;
-	  font-size: 12px;
+    font-size: 12px;
   }
 
   .Primary_button a:hover {
@@ -1403,17 +1403,16 @@ a .ContactLinks {
   .Primary_CTA_1 {
     display: none;
   }
-	
-	.Primary_CTA {
-		text-align: left;
-			padding-left: 0px;
-	}
-	
-		.Primary_CTA_h {
-		text-align: center;
-			padding: 30px;
-	}
 
+  .Primary_CTA {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .Primary_CTA_h {
+    text-align: center;
+    padding: 30px;
+  }
 
   .Primary_CTA_l {
     padding: 25px 0px 20px;
@@ -1421,32 +1420,29 @@ a .ContactLinks {
     vertical-align: middle;
     display: inline;
   }
-	
-	.Secondary_CTAs {
-		display: inline-block;
-		text-align: left;
-	}
-	
-	.secondary_button {
-		text-align: left;
-		font-size: 12px;
-		padding: 8px 0px;
-		
-	}
-	
-	.secondary_button_p {
-		text-align: left;
-		font-size: 12px;
-		padding: 8px 10px;
-		
-	}
-	
-	.secondary_group {
-		text-align: left;
-		font-size: 12px;
-		padding: 8px 30px 10px 0px;
-		
-	}
+
+  .Secondary_CTAs {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .secondary_button {
+    text-align: left;
+    font-size: 12px;
+    padding: 8px 0px;
+  }
+
+  .secondary_button_p {
+    text-align: left;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .secondary_group {
+    text-align: left;
+    font-size: 12px;
+    padding: 8px 30px 10px 0px;
+  }
 
   .Primary_button_hero {
     font-size: 12px;
@@ -1597,16 +1593,15 @@ a .ContactLinks {
     padding: 70px 10px 0px;
     margin-top: 0;
   }
-	
-	
-	.flow_image {
-  background-color: #ffffff;
-  object-fit: cover;
-  width: 60%;
-  height: 60%;
-  padding: 20px 20px 20px 20px;
-  margin: 10px;
-}
+
+  .flow_image {
+    background-color: #ffffff;
+    object-fit: cover;
+    width: 60%;
+    height: 60%;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+  }
 
   /* DESKTOP NAV, HAMBURGER DISAPPEAR */
   .desktop-nav {
