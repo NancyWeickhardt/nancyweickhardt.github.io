@@ -182,7 +182,7 @@ a {
   list-style: none;
   padding: .6rem;
   transition: color 0.4s ease;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .menu-wrap .menu>div>div>ul>li>a {
@@ -315,7 +315,7 @@ h1 {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 33px;
   line-height: 33px;
   /* or 137% */
   letter-spacing: 0.05em;
@@ -493,6 +493,8 @@ h6 {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
+  border: .5px solid #20363D;
+  box-sizing: border-box; 	
   font-size: 12px;
   line-height: 100%;
   padding: 8px 14px 6px;
@@ -518,6 +520,8 @@ h6 {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
+  border: .5px solid #20363D;
+  box-sizing: border-box;	
   font-size: 11px;
   line-height: 100%;
   padding: 8px 10px 6px;
@@ -1243,7 +1247,7 @@ a .ContactLinks {
 
   .body_text_half {
     font-size: 18px;
-    padding: 10px 0px;
+    padding: 10px -10px;
   }
 
   .body_text_half_l {
@@ -1266,11 +1270,11 @@ a .ContactLinks {
   }
 
   .project_image {
-    margin: 45px 20px;
+    margin: 45px -15px;
   }
 
   .project_image_l {
-    margin: 45px -20px;
+    margin: 45px -15px;
   }
 
   .about_intro {
@@ -1287,7 +1291,7 @@ a .ContactLinks {
     flex: 1;
     vertical-align: bottom;
     padding: 0px 0px;
-    margin: 0px -10px;
+    margin: 0px 0px;
   }
 
   .column_2 {
@@ -1467,7 +1471,7 @@ a .ContactLinks {
   }
 
   .project_text {
-    margin: 0px 10px 0px;
+    margin: 0px 0px 0px;
     max-width: 460px;
   }
 
@@ -1482,7 +1486,12 @@ a .ContactLinks {
 
   .project_des {
     font-size: 20px;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 20px 0px 0px;
+  }
+	
+	  .project_des_2 {
+    font-size: 20px;
+    margin: 0px -20px 0px 0px;
   }
 
   .future {
@@ -1569,7 +1578,7 @@ a .ContactLinks {
 
   /* Type */
   h1 {
-    font-size: 42px;
+    font-size: 32px;
     padding-top: 20px;
     max-width: 760px;
     line-height: 160%;
